@@ -1,0 +1,66 @@
+body {
+    background-color: #16161a;
+    color: #ddd;
+}
+
+#terminalContent {
+    font: 1em Consolas, monaco, monospace;
+    top: 5em;
+    bottom: 6em;
+}
+
+.container {
+    @media all and (max-width: 400px)
+    /* width: 90%;
+    max-width: 900px; */
+    position: fixed;
+}
+
+#terminalHeader {
+    height: 1.75em;
+    background-color: #ddd;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.button {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 8px 5px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#terminalBody {
+    padding: 2% 5% 0 2%;
+    background-color: #242629;
+    height: 30em;
+    border-radius: 0 0 20px 20px;
+    overflow-y: auto;
+    border: solid 5px #ddd;
+}
+
+#BodyContent {
+    float: left;
+}
+
+input {
+    width: 30%;
+    background-color: #242629;
+    border-width: 0;
+    color: rgb(198, 217, 235);
+    font: 1em Consolas, monaco, monospace;
+    font-weight: 700;
+}
+input:focus {
+    outline: none;
+}
+
+a {
+    color: rgb(42, 199, 49);
+    transition: 0.2s ease-in-out;
+}
+a:hover {
+    color: #EF4F4F;
+}
